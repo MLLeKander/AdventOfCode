@@ -13,8 +13,6 @@ for lo, hi in ranges:
             ans1 += x
         for rep in [2,3,4,5,6,7,8,9,10]:
             if is_invalid(x, rep):
-                if rep > 5:
-                    print(x, rep)
                 ans2 += x
                 break
 print(ans1, ans2)
